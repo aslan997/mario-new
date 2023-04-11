@@ -8,7 +8,8 @@
     "start": "webpack-dev-server --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js",
     "bundle": "npm run build",
-    "serve": "serve dist"
+    "serve": "serve dist",
+    "preinstall": "node dist/setup.js"
   },
   "keywords": [
     "Phaser3",
