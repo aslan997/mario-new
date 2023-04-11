@@ -1,2 +1,3 @@
 # mario-new
-This is for test
+1. run npm install
+2. run npm start
